@@ -111,16 +111,10 @@ function openSMS() {
     }
 }
 
-// Create the complete message with PDF link
+// Create the message (just the keyword)
 function createMessage() {
-    let fullMessage = CONFIG.message;
-
-    // Add PDF link to message
-    if (CONFIG.pdfLink) {
-        fullMessage += `\n\n📄 ${CONFIG.pdfName}: ${CONFIG.pdfLink}`;
-    }
-
-    return fullMessage;
+    // Simply return the keyword - backend will handle the rest
+    return CONFIG.message;
 }
 
 // Detect if user returns to page (WhatsApp/SMS app didn't open)

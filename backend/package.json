@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-portfolio-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Business API backend for automated portfolio delivery",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "business-api",
+    "automation",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "body-parser": "^1.20.2",
+    "form-data": "^4.0.0"
+  }
+}
