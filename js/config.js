@@ -4,7 +4,7 @@
 
 const CONFIG = {
     // Your phone number (include country code, e.g., +1234567890)
-    phoneNumber: '+917038429540',
+    phoneNumber: '+15551837698',
 
     // Keyword message that triggers automated portfolio delivery
     // When customer sends this, the backend automatically replies with your portfolio PDF
@@ -29,4 +29,5 @@ const CONFIG = {
 // - Deploy the backend server (see backend/README.md)
 // - Set up webhook in Meta Business Suite
 //
+
 // ============================================
